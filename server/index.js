@@ -1,3 +1,4 @@
+// server/server.js
 const express = require('express');
 const cors = require('cors');
 const app = express();
@@ -40,6 +41,11 @@ app.get('/api/weather', (req, res) => {
     { day: 'Cum', icon: '☀️', high: '14°', low: '8°',  temp: '14°C', desc: 'Açık' }
   ];
   res.json(weatherData);
+});
+
+// Ana endpoint (boş isteklerde hata vermemesi için)
+app.get('/', (req, res) => {
+  res.send('Haber Portalı API çalışıyor.');
 });
 
 app.listen(PORT, () => {
