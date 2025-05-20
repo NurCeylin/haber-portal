@@ -38,7 +38,7 @@ const Slider = () => {
         >
           <img
             className="d-block slider-image"
-            src={`/images/${item.image}`}
+            src={`${process.env.REACT_APP_API_URL}/images/${item.image}`}
             alt={item.title}
           />
         </Carousel.Item>

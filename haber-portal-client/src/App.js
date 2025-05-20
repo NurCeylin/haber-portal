@@ -65,7 +65,7 @@ function App() {
               >
                 <div style={{ marginBottom: '16px' }}>
                   <img
-                    src="/images/haber_anasayfa.JPG"
+                    src={`${process.env.REACT_APP_API_URL}/images/haber_anasayfa.JPG`}
                     alt="Haber görseli"
                     style={{
                       width: '100%',
