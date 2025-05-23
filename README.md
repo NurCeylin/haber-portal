@@ -7,10 +7,10 @@ This is a news portal web project built using React for the frontend and Express
 ## 🖼️ Screenshots
 
 ### 💻 Web View
-![Web View](client/public/images/haber_portalı_web.JPG)
+![Web View](haber-portal-client/public/images/haber_portalı_web.JPG)
 
 ### 📱 Mobile View
-![Mobile View](client/public/images/haber_portalı_mobil.JPG)
+![Mobile View](haber-portal-client/public/images/haber_portalı_mobil.JPG)
 
 ---
 
