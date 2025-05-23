@@ -73,15 +73,15 @@ This is a news portal web project built using React for the frontend and Express
 
 ## 🧾 Deployment
 
-The application can be deployed to services such as:
+This application has been **deployed** on [Render.com](https://render.com):
 
-➡️ https://render.com
+- 🔗 **Frontend (React):** https://haber-portal-client.onrender.com  
+- 🔗 **Backend (Express API):** https://haber-portal.onrender.com  
 
-Frontend and backend can be hosted together or separately.  
-After deployment, update this section with the live URL.
+> ⚠️ **Important Note:**  
+> The frontend relies on the backend API.  
+> Render.com's free tier puts backend services to sleep when idle.  
+> Therefore, **before visiting the frontend**, first wake up the backend by visiting:  
+> 👉 https://haber-portal.onrender.com  
+> Wait a few seconds until the backend is fully active, then open the frontend link.
 
----
-
-## 📄 License
-
-This project was developed as a student assignment for educational purposes only. All rights reserved.
